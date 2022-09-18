@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="background_01" type="dimen" format="float">0.85</item>
+    <item name="background_02" type="dimen" format="float">0.21</item>
+    <dimen name="value_100">100dp</dimen>
+</resources>

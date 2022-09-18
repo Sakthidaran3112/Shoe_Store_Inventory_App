@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.udacity.shoestore.login.fragment_login">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Instruction_image"
+        android:layout_width="410dp"
+        android:layout_height="230dp"
+        android:contentDescription="@string/instruction"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/instructions" />
+
+    <TextView
+        android:id="@+id/instructions2_text"
+        style="@style/InstructionsTextfont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/instruction1_Text"
+        app:layout_constraintBottom_toTopOf="@+id/instructons3_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Instruction_image" />
+
+    <TextView
+        android:id="@+id/instructons3_text"
+        style="@style/InstructionsTextfont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/instruction2_Text"
+        app:layout_constraintBottom_toTopOf="@+id/instructions1_text"
+        app:layout_constraintEnd_toEndOf="@+id/instructions2_text"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/instructions2_text"
+        app:layout_constraintTop_toBottomOf="@+id/instructions2_text" />
+
+    <TextView
+        android:id="@+id/instructions1_text"
+        style="@style/InstructionsTextfont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/instruction3_Text"
+        app:layout_constraintBottom_toTopOf="@+id/NextInstruction_button"
+        app:layout_constraintEnd_toEndOf="@+id/instructons3_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/instructons3_text"
+        app:layout_constraintTop_toBottomOf="@+id/instructons3_text"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <Button
+        android:id="@+id/NextInstruction_button"
+        style="@style/NextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/Next_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
