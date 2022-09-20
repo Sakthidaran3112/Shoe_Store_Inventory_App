@@ -44,7 +44,6 @@ class Fragment_Shoelisting : Fragment() {
                 binding.DetailList.addView(shoeListBinding.root)
             }
         })
-
         return binding.root
     }
 

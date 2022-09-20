@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         navController = navHostFragment.navController
 
 
-        appBarConfiguration = AppBarConfiguration(setOf(R.id.loginFragment))
+        appBarConfiguration = AppBarConfiguration(setOf(R.id.LOGIN))
         Timber.plant(Timber.DebugTree())
     }
 }

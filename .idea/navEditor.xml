@@ -8,7 +8,7 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="fragment_Instructions">
+                  <entry key="INSTRUCTIONS">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -29,13 +29,34 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="fragment_ShoeDetail">
+                  <entry key="LOGIN">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="974" />
-                            <option name="y" value="304" />
+                            <option name="x" value="-476" />
+                            <option name="y" value="-16" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_fragment_login_to_fragment_welcome">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="SHOE_DETAIL">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="1050" />
+                            <option name="y" value="265" />
                           </Point>
                         </option>
                         <option name="myPositions">
@@ -50,7 +71,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="fragment_Shoelisting">
+                  <entry key="SHOE_LIST">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -76,7 +97,7 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="fragment_welcome">
+                  <entry key="WELCOME">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -88,27 +109,6 @@
                         <option name="myPositions">
                           <map>
                             <entry key="action_fragment_welcome_to_fragment_Instructions">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="loginFragment">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="-440" />
-                            <option name="y" value="-6" />
-                          </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="action_fragment_login_to_fragment_welcome">
                               <value>
                                 <LayoutPositions />
                               </value>
