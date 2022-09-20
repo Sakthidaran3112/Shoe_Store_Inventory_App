@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="24dp"
             android:ems="10"
-            android:text="@={shoeViewModel.shoeItem.company}"
+            android:text="@={shoeViewModel.shoesList.name}"
             android:hint="@string/Modeledit_text"
             android:inputType="textPersonName"
             app:layout_constraintBottom_toBottomOf="@+id/Model_text"
@@ -64,6 +64,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="24dp"
             android:ems="10"
+            android:text="@={shoeViewModel.ShoesList.company}"
             android:hint="@string/Brandedit_text"
             app:layout_constraintBottom_toBottomOf="@+id/Brand_text"
             app:layout_constraintEnd_toEndOf="parent"
@@ -94,7 +95,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="24dp"
             android:ems="10"
-            android:text="@={shoeViewModel.shoeItem.description}"
+            android:text="@={shoeViewModel.ShoesList.description}"
             android:gravity="start|top"
             android:hint="@string/EnterDescription_text"
             android:inputType="textMultiLine"
@@ -106,8 +107,10 @@
 
         <Button
             android:id="@+id/Save_button"
+            style="@style/buttonBox"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            android:layout_marginStart="8dp"
             android:onClick="@{() -> shoeViewModel.addShoe()}"
             android:text="@string/save_button"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -118,6 +121,7 @@
             android:id="@+id/cancel_button"
             android:layout_width="0dp"
             android:layout_height="50dp"
+            style="@style/buttonBox"
             android:text="@string/canccel_button"
             app:layout_constraintBaseline_toBaselineOf="@+id/Save_button"
             app:layout_constraintStart_toStartOf="parent" />
@@ -139,13 +143,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:text="@={shoeViewModel.shoeItem.size}"
             android:hint="@string/Shoe_Size"
             android:inputType="textPersonName"
+            android:text="@={shoeViewModel.ShoesList.size}"
             app:layout_constraintBottom_toBottomOf="@+id/Shoesize"
             app:layout_constraintEnd_toEndOf="@+id/Brandedit_text"
             app:layout_constraintStart_toStartOf="@+id/Brandedit_text"
-            app:layout_constraintTop_toTopOf="@+id/Shoesize" />
+            app:layout_constraintTop_toTopOf="@+id/Shoesize"
+            tools:ignore="TouchTargetSizeCheck" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

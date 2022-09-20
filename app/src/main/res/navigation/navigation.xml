@@ -45,13 +45,10 @@
         tools:layout="@layout/fragment_shoelisting">
         <action
             android:id="@+id/action_fragment_Shoelisting_to_fragment_ShoeDetail"
-            app:destination="@id/fragment_ShoeDetail"
-            app:popUpTo="@id/loginFragment" />
+            app:destination="@id/fragment_ShoeDetail" />
         <action
-            android:id="@+id/action_fragment_Shoelisting_to_fragment_login"
-            app:destination="@id/loginFragment"
-            app:popUpTo="@id/loginFragment"
-            app:popUpToInclusive="true"/>
+            android:id="@+id/action_fragment_Shoelisting_to_loginFragment"
+            app:destination="@id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/fragment_ShoeDetail"

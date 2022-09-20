@@ -16,7 +16,7 @@ class Fragment_welcome : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+        // Inflating the fragment
         val binding: FragmentWelcomeBinding = DataBindingUtil.inflate(inflater,
             R.layout.fragment_welcome, container, false)
         binding.NextInstructionButton.setOnClickListener {

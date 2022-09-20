@@ -20,15 +20,16 @@ class Fragmentlogin : Fragment() {
             inflater,
             R.layout.fragment_login, container, false
         )
-
+        //Function for the Signin button
         binding.Signinbutton.setOnClickListener {
             val action = FragmentloginDirections.actionFragmentLoginToFragmentWelcome()
             NavHostFragment.findNavController(this).navigate(action)
         }
-            binding.Signupbutton.setOnClickListener {
-                val action1 = FragmentloginDirections.actionFragmentLoginToFragmentWelcome()
-                NavHostFragment.findNavController(this).navigate(action1)
-            }
+        //Function for the Signup button
+        binding.Signupbutton.setOnClickListener {
+            val action1 = FragmentloginDirections.actionFragmentLoginToFragmentWelcome()
+            NavHostFragment.findNavController(this).navigate(action1)
+        }
             return binding.root
         }
     }

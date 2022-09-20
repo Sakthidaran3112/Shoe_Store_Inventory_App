@@ -24,7 +24,8 @@ class Fragment_Instructions : Fragment() {
             R.layout.fragment_instructions, container, false
         )
         binding.NextInstructionButton.setOnClickListener {
-            val action = Fragment_InstructionsDirections.actionFragmentInstructionsToFragmentShoelisting()
+            val action =
+                Fragment_InstructionsDirections.actionFragmentInstructionsToFragmentShoelisting()
             NavHostFragment.findNavController(this).navigate(action)
         }
 
