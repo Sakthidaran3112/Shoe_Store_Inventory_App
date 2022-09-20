@@ -5,6 +5,13 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class Shoe(
-    var name: String, var size: Double, var company: String, var description: String,
-    val images: List<String> = mutableListOf(
-    "shoe_1", "shoe_2", "shoe_3","shoe_4","shoe_5") ): Parcelable
+    var name: String, var size: String, var company: String, var description: String,
+    val images: MutableList<String> = mutableListOf()): Parcelable {
+
+    fun isIncomplete(): Boolean {
+        if (name.isEmpty()|| size.isEmpty() || company.isEmpty() || description.isEmpty())
+            return true
+        return false
+    }
+}
+
