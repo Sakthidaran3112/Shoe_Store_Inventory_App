@@ -37,7 +37,7 @@ class fragment_ShoeDetail : Fragment() {
         }
 
         //Function for the save button
-        shoeViewModel.ShoeDetail.observe(viewLifecycleOwner, Observer {
+        shoeViewModel.shoeDetail.observe(viewLifecycleOwner, Observer {
             if (it) {
                 findNavController().navigate(R.id.action_fragment_ShoeDetail_to_fragment_Shoelisting)
             }
