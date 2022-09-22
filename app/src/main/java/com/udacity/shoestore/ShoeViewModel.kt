@@ -10,11 +10,15 @@ class ShoeViewModel: ViewModel () {
     var shoesList: Shoe? = null
     private var shoe = mutableListOf<Shoe>()
 
+
     private val _List = MutableLiveData<List<Shoe>>()
     val shoeList: LiveData<List<Shoe>>
         get() = _List
 
     val shoeDetail = SingleLiveEvent<Boolean>()
+
+
+
 
 
     fun Savedata() {
@@ -29,11 +33,11 @@ class ShoeViewModel: ViewModel () {
         }
 
     }
+
+
     fun Addetail() {
-        shoeDetail.value= true
+        shoeDetail.value = true
     }
-
-
 
 }
 
