@@ -15,6 +15,13 @@ Shoe detail
 
 ![3](https://user-images.githubusercontent.com/113074664/192350476-1c98263b-f264-4a03-8f02-f32fadd29f43.png)
 
+## Application UI
+
+![Login](https://user-images.githubusercontent.com/113074664/192354113-1121694f-1e46-4155-8852-1d6455ec995d.png) ![Welcome_Screen](https://user-images.githubusercontent.com/113074664/192354149-e01c4a89-2f3d-4fc4-8b98-360d685dc698.png) ![Instruction_Screen](https://user-images.githubusercontent.com/113074664/192354198-cd82c5a3-8779-4f62-a1a2-cc6d7235c70a.png) ![Shoe_List_Screen](https://user-images.githubusercontent.com/113074664/192354227-ce75e21e-06c1-4427-b39c-b2ae67499cb0.png) ![Shoe_List_Screen](https://user-images.githubusercontent.com/113074664/192354248-05df635f-1982-4a13-b3f1-15ee1eb4c27b.png) 
+
+
+
+
 
 
 ## Guidelines of the Project 
