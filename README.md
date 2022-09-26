@@ -25,7 +25,8 @@ Shoe detail
 
 ![Shoe_List_Screen](https://user-images.githubusercontent.com/113074664/192354227-ce75e21e-06c1-4427-b39c-b2ae67499cb0.png) 
 
-![Shoe_List_Screen](https://user-images.githubusercontent.com/113074664/192354248-05df635f-1982-4a13-b3f1-15ee1eb4c27b.png) 
+![Shoe_Detail_Screen](https://user-images.githubusercontent.com/113074664/192354695-ace25b2b-938c-404e-b009-9d488c0bc4b0.png)
+
 
 
 
