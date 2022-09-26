@@ -27,6 +27,11 @@ Shoe detail
 
 ![Shoe_Detail_Screen](https://user-images.githubusercontent.com/113074664/192354695-ace25b2b-938c-404e-b009-9d488c0bc4b0.png)
 
+## Navigation
+
+![image](https://user-images.githubusercontent.com/113074664/192354950-bf601c68-5dc6-4186-9021-4816f9a2524c.png)
+
+
 
 
 
