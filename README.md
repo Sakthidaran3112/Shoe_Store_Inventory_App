@@ -2,9 +2,13 @@
 This App was developed as a part of the Udacity Android Kotlin Developer Nanodegree Course for the Project "Shoe Store Inventory app". In this project I applied my skills and knowledge in building layouts and navigation between the fragments. The app consist of five screens:
 
 -Login
+
 -Onboarding
+
 -Instruccions
+
 -Shoe list
+
 -Shoe detail
 
 ## Recieved some appreciation from the Reviewer
